@@ -83,7 +83,7 @@ jobs:
         $GITHUB_WORKSPACE/$FEED_CLEAN
 
     - name: Install feeds
-      run: cd openwrt && ./scripts/feeds install -a
+      run: cd openwrt && ./scripts/feeds install -a -f
   
     - name: Load custom configuration
       run: |
