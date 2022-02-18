@@ -16,6 +16,13 @@
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 
-git clone https://github.com/pymumu/luci-app-smartdns.git feeds/luci/applications/luci-app-smartdns/
+git clone https://github.com/pymumu/luci-app-smartdns.git feeds/lucismartdns
+
+ cd feeds/lucismartdns
+ git config --global user.email "r7800@openwrt.com"
+ git config --global user.name "r7800"
+ git init
+ git add .
+ git commit -m "添加插件包 "
 
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
