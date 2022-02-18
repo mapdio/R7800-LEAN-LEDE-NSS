@@ -16,7 +16,7 @@
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 
-git clone https://github.com/pymumu/luci-app-smartdns.git feeds/lucismartdns
+svn export https://github.com/pymumu/luci-app-smartdns.git feeds/lucismartdns
 
  cd feeds/lucismartdns
  git config --global user.email "r7800@openwrt.com"
