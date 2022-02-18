@@ -17,6 +17,6 @@
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 
 # Add SmartDNS
-git clone https://github.com/pymumu/openwrt-smartdns.git package/smartdns
-git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+git clone https://github.com/pymumu/openwrt-smartdns.git ../feeds/packages/net/smartdns
+git clone https://github.com/pymumu/luci-app-smartdns.git ../feeds/luci/applications/luci-app-smartdns
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
