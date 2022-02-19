@@ -22,6 +22,7 @@ svn export https://github.com/pymumu/luci-app-smartdns.git feeds/lucismartdns
  git config --global user.email "r7800@openwrt.com"
  git config --global user.name "r7800"
  git init
+ git config --global init.defaultBranch lucismartdns
  git add .
  git commit -m "添加插件包 "
 
