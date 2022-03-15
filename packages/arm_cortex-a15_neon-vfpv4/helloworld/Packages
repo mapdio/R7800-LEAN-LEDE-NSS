@@ -1,0 +1,59 @@
+Package: luci-app-ssr-plus
+Version: 185-2
+Depends: libc, coreutils, coreutils-base64, dns2socks, dnsmasq-full, ipset, kmod-ipt-nat, ip-full, iptables-mod-tproxy, lua, libuci-lua, microsocks, pdnsd-alt, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch, curl, xray-core
+Section: luci
+Architecture: all
+Installed-Size: 194357
+Filename: luci-app-ssr-plus_185-2_all.ipk
+Size: 194474
+SHA256sum: 16fb606889fbe38034e447b197a82308c7292a50b136f1676c0a0579899d6e40
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: 185-2
+Depends: libc, luci-app-ssr-plus
+Section: luci
+Architecture: all
+Installed-Size: 6550
+Filename: luci-i18n-ssr-plus-zh-cn_185-2_all.ipk
+Size: 7411
+SHA256sum: b982a9495a0507151ee112a1b4ca41b09ea4becf380618e85cb7845310cac7cb
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2246
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3031
+SHA256sum: e18aea39b21218d474fbd15e4970811273a717f64c1b6eac7b327f936292a6e1
+Description:  shadowsocksr-libev ssr-check
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+License: GPL-2.0-only
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3385
+Filename: tcping_0.3-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4102
+SHA256sum: edd3772aacea8075c22ae943f499bc524c5394e97aee19e9ab501cf0255d7522
+Description:  tcping measures the latency of a tcp-connection
+
+Package: xray-core
+Version: 1.5.4-1
+Depends: libc, ca-bundle
+License: MPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 6338090
+Filename: xray-core_1.5.4-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6330533
+SHA256sum: 7b1b5b6a713e6e18710406d7ca99e6beb9ac008caace558590608bffb94bba4f
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
